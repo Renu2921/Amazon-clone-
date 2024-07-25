@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: white;
+    text-align: center;
+   min-height: 100vh;
+  
+}
+img{
+    margin-top: 20px;
+}
+.signin-container{
+    margin: auto;
+    height: 370px;
+    width: 360px;
+    border: 0.2px solid #d2d2d2;
+    border-radius:7px ;
+    padding: 20px 26px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 30px;
+}
+.signin-title{
+   font-size: 28px ;
+   font-weight: 100;
+   margin-bottom: 20px
+}
+.signin-email{
+    font-size:13px ;
+    font-weight: 600;
+    padding:0 0 2px 2px ;
+    margin-bottom: 5px;
+}
+ .signin-input{
+    width: 100%;
+    padding: 6px 7px;
+}
+.signin-container button{
+    width: 100%;
+    background-color: #ffd814;
+    border: none;
+    padding: 10px 6px;
+    margin-top: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+.signin-condition{
+    font-size: 12px;
+    margin-top: 18px;
+    font-weight: 540;
+}
+.signin-help{
+    font-size: 13px;
+    color:#0060c0 ;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.signin-buy{
+    
+  font-size: 13px;
+  font-weight: 600;
+  text-align: left;
+  margin-top: 20px;
+}
+.signin-business{
+    font-size: 13px;
+    color: #0060c0;
+    text-align: left;
+    margin-top: 10px;
+}
+.signin-bottom{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 360px;
+    margin: auto;
+    margin-top: 30px;
+}
+.bottom-condition{
+    display: flex;
+    flex-direction: row;
+    gap: 23px;
+
+}
+.signin-bottom hr{
+   color: #d2d2d2;
+    width: 130px;
+   
+}
+.signin-hr{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap:4px;
+}
+.signin-bottom p{
+    font-size:12px ;
+    color: #767676;
+}
+.signin-bottom a button {
+    width: 360px;
+    padding: 7px;
+    border: 1px solid #d4d4d4;
+    border-radius: 10px;
+   background-color: #f0e8e8;
+   font-size: 13px;
+   margin-top: 20px;
+   padding:7px ;
+   
+}
+.signin-bottom button:hover{
+background-color:#ffd814 ;
+}
+.bottom-condition{
+    margin-top: 40px;
+    
+}
+.bottom-condition p{
+    color:#0060c0 ;
+    margin-bottom: 20px;
+}
+
+
+
+
